@@ -1,2 +1,9 @@
 # local python virtual environment
 .venv
+
+# Jupyter
+.ipynb_checkpoints
+
+# Others
+.vscode
+datasets

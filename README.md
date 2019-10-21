@@ -11,6 +11,18 @@ problem and offline learning is sufficient given that the data fits in a regular
 where the ML model uses online learning to ingest and update itself incrementally untill all data
 has been processed).
 
-## Reference
+## Troubleshooting
+
+#### SSL Error
+If you execute some piece of Python code that touches `urllib` (e.g., `fetch_housing_data`),
+you might face some SSL error:
+
+```
+<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate...
+```
+
+Running `pip install -U certifi` should be enough to fix the issue
+
+## References
 * Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow. 2nd Edition. O'Reilly, 2019.
   * Chapter 2. End-to-End Machine Learning Project
