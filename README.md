@@ -1,7 +1,10 @@
 # Practicing End-to-End Machine Learning projects!
 
+This repository is a dummy project to follow my reading on the amazing book "Hands-On Machine Learning with Scikit-Learn,
+Keras, and TensorFlow". More precisely, Chapter 2 :smile:
+
 ## Context
-You are working in a Real Estate company and your boss requested a ML model
+You are working in a Real Estate company and your boss requests a ML model
 to predict house prices.
 Your boss tells you that your ML system will be a component in a larger system
 that provides advices, therefore, it is critical to revenue.
