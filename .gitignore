@@ -6,4 +6,4 @@
 
 # Others
 .vscode
-datasets
+*.tgz
